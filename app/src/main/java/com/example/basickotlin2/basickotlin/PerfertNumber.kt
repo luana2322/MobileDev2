@@ -20,7 +20,7 @@ var num:Int=0;
 }
 fun hoanhao(n:Int):Boolean{
     var num:Int=0;
-    for(i in 1..n){
+    for(i in 1..n/2){
         if(n%i==0){
             num+=i;
         }
